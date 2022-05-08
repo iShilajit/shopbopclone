@@ -34,10 +34,10 @@ export const Product = () => {
                             <button id="view45items" >45</button>
                         </div>
 
-                        <div class="productItemsMain-div">
+                        <div class="productItemsMain-div whatnew">
                             {itemsData2.map((i) => {
                                 return (
-                                    <div key={i.sid} className="whatnew" >
+                                    <div key={i.sid}  >
                                        
                                         <div >
                                             <img src={i.itemImg} alt="" />
@@ -45,9 +45,7 @@ export const Product = () => {
                                             <p>{i.type}</p>
                                             <p>{i.price}</p>
                                         </div>
-                                        {/* <div> <p>{i.title}</p></div>
-                                        <div> <p>{i.type}</p></div>
-                                        <div> <p>{i.price}</p></div> */}
+                                        
                                        
                                        
                                     </div>
