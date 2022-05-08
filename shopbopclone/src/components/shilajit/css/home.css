@@ -1,0 +1,696 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "GT-America-Standard", "Helvetica Neue", Helvetica, sans-serif;
+  }
+  
+  /* main starting bg image begin here */
+  
+  .startimg {
+    height: 640px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fceed9;
+    margin-top: 20px;
+  }
+  #startheadImg {
+    height: 100%;
+    width: 75.6vw;
+  }
+  .headinh{
+      text-align: center;
+      margin-top: 10px;
+  }
+  .headinh >h2{
+      position: relative;
+      top: 20px;
+      font-weight: bold;
+      font-size: 15px;
+      font-family: sans-serif;
+  }
+  .headinh >h1{
+    position: relative;
+    top: 35px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial  Bold', sans-serif;
+}
+  .after-start-Img-Div {
+    height: 500px;
+    background-color: #fff6fb;
+  }
+  .ul-after-start-img {
+    list-style-type: none;
+    display: flex;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 40px;
+    margin-top: 20px;
+    justify-content: center;
+    column-gap: 10px;
+    height: 550px;
+    text-align: center;
+  }
+  #afterimgid1,
+  #afterimg2,
+  #afterimg3 {
+    height: 350px;
+    cursor: pointer;
+    
+  }
+  .blackSameDesign {
+    cursor: pointer;
+  }
+  .textSame {
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    display: inline-block;
+    padding: 20px 2px 3px;
+    border-bottom: 1px solid black;
+    font-weight: 700;
+    color: #ee4a1b;
+  
+  }
+  .textSame:hover {
+    border-bottom: 2px solid;
+  }
+  /* end here */
+  
+  /* slide window part begin here */
+  .items-container {
+    height: 640px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .itemshead {
+    height: 100%;
+    width: 81vw;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 30px 12.5vw 60px;
+  }
+  .itemsText {
+    height: 102px;
+    padding: 30px 0px 14px;
+  }
+  .shopAlllink {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title1 {
+    padding: 0px 0px 10px;
+    display: block;
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding-left: 15px;
+  }
+  .title2 {
+    margin: 0;
+    padding: 0px 0px 5px;
+    display: block;
+    height: 45px;
+    font-weight: 900;
+    padding-left: 15px;
+  }
+  .shopAll {
+    height: 20px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .linkfontstyle {
+    color: #ee4a1b;
+    cursor: pointer;
+    border: 0px;
+    border-bottom: 1px solid #ee4a1b;
+  }
+  .linkfontstyle:hover {
+    border-bottom: 2px solid #ee4a1b;
+  }
+  /* end here */
+  
+  /* this part for slide design begin here */
+  
+  .itemsSlidebar {
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide-main {
+    position: relative;
+  }
+  .mainslide-con-div1 {
+    display: flex;
+    justify-content: center;
+  }
+  .mainslide-con-div2 {
+    display: none;
+    justify-content: center;
+  }
+  .mainslide-con-div3 {
+    display: none;
+    justify-content: center;
+  }
+  .mainslide-con-div4 {
+    display: none;
+    justify-content: center;
+  }
+  .mainslide-con-div5 {
+    display: none;
+    justify-content: center;
+  }
+  .mainslide-con-div6 {
+    display: none;
+    justify-content: center;
+  }
+  .mainslide-con-div7 {
+    display: none;
+    justify-content: center;
+  }
+  .mainslide-con-div8 {
+    display: none;
+    justify-content: center;
+  }
+  
+  .prodCountImg {
+    width: 98%;
+  }
+  
+  .h4titletxt {
+    font-size: 12px;
+    padding: 0px 13px;
+    margin: 7px 0px 0px;
+    font-weight: 700;
+  }
+  .ptypetxt {
+    font-size: 12px;
+    margin: 1px;
+    padding: 0px 13px;
+    color: rgb(39, 39, 39);
+  }
+  .h4pricetxt {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0px 13px;
+    margin: 1px;
+  }
+  .preBtn {
+    border: 4px solid transparent;
+    position: absolute;
+    top: calc(45% - 22px);
+    left: 0;
+    transition: background-image 0.2s ease-in 0s;
+    padding: 8px 8px;
+    border-radius: 50%;
+    width: 20px;
+    height: 10px;
+    background-color: #ee491ba2;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-bottom: 32px;
+    cursor: pointer;
+  }
+  .nextBtn {
+    position: absolute;
+    border: 4px solid transparent;
+    position: absolute;
+    top: calc(45% - 22px);
+    right: 0px;
+    transition: background-image 0.2s ease-in 0s;
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px;
+    border-radius: 50%;
+    background-color: #ee4a1b;
+    box-sizing: border-box;
+    padding-bottom: 32px;
+    cursor: pointer;
+  }
+  .nextBtn:hover,
+  .preBtn:hover {
+    background-color: #ee491ba2;
+  }
+  /* end here */
+  
+  /* end here */
+  
+  /* visualNav part begin here */
+  .visualNav {
+    height: 638px;
+    background-color: #fff6fb;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+  .visualNavText {
+    text-align: center;
+  }
+  .visualheading1 {
+    font-size: 15px;
+    padding: 0px 0px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0px;
+  }
+  .visualheading2 {
+    font-size: 32px;
+    
+    font-weight: 900;
+    margin: 0px;
+  }
+  .visualImages {
+    height: 513px;
+    padding: 26px 57.5px 80px;
+    display: flex;
+    justify-content: space-around;
+  
+    column-gap: 5px;
+    margin-top: 5px;
+    list-style-type: none;
+  }
+  .visImgText {
+    width: 100%;
+    height: 500px;
+  }
+  .desVidiv {
+    text-align: center;
+  }
+  
+  .designtxt {
+    border: 0px;
+    text-align: center;
+    padding-bottom: 2px;
+    display: inline-block;
+    font-weight: 700;
+    color: #ee4a1b;
+    border-bottom: 1px solid #ee4a1b;
+    cursor: pointer;
+  }
+  .designtxt:hover {
+    border-bottom: 2px solid #ee4a1b;
+  }
+  /* end here */
+  
+  /* background image part begin here */
+  .headingImg {
+    height: 640px;
+    text-align: center;
+    cursor: pointer;
+  }
+  #bgimg {
+    height: 100%;
+    width: 78vw;
+  }
+  /* end here */
+  
+  /* destination and arm imges begin here */
+  
+  .destination-arm-section {
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: left;
+    overflow-y: hidden;
+    padding: 70px 0px 30px;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+  }
+  .destinationImgDiv {
+    padding: 0px 42px;
+    cursor: pointer;
+  }
+  .armImgDiv {
+    padding: 0px 42px;
+    cursor: pointer;
+  }
+  .destinationTextDiv,
+  .armTextDiv {
+    position: relative;
+    margin-top: -10%;
+    left: 20%;
+    width: 82%;
+    padding: 8%;
+    transition: margin-top 0.2s ease 0s, padding-bottom 0.2s ease 0s;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    height: 200px;
+  }
+  .destinationTextDiv:hover,
+  .armTextDiv:hover {
+    margin-top: -12%;
+  }
+  .destinText1 {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+  }
+  .hr-line {
+    width: 15%;
+    margin: 12px 0px;
+    border: 1px solid #ee4a1b;
+  }
+  .destinText2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0px;
+  }
+  .armText1 {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+  }
+  .armText2 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 0px;
+  }
+  /* end here */
+  
+  /* slide window part2 begin here */
+  .items-container2 {
+    height: 640px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff7f3;
+  }
+  .itemshead2 {
+    height: 100%;
+    width: 81vw;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 30px 12.5vw 60px;
+  }
+  .itemsTexts2 {
+    height: 102px;
+    padding: 30px 0px 14px;
+  }
+  .shopAlllink2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title1-2 {
+    padding: 0px 0px 10px;
+    display: block;
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding-left: 15px;
+  }
+  .title2-2 {
+    margin: 0;
+    padding: 0px 0px 5px;
+    display: block;
+    height: 45px;
+    font-weight: 900;
+    padding-left: 15px;
+  }
+  .shopAll2 {
+    height: 20px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .linkfontstyle2 {
+    color: #ee4a1b;
+    cursor: pointer;
+    border: 0px;
+    border-bottom: 1px solid #ee4a1b;
+  }
+  .linkfontstyle2:hover {
+    border-bottom: 2px solid #ee4a1b;
+  }
+  /* end here */
+  
+  /* slide bar2 part begin here */
+  
+  .itemsSlidebar2 {
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* end here */
+  
+  /* background image part3 begin here */
+  .BgImg3Div {
+    height: 640px;
+    text-align: center;
+    cursor: pointer;
+  }
+  #BgImg3 {
+    height: 100%;
+    width: 78vw;
+  }
+  /* end here */
+  
+  /* slide window part3 begin here */
+  .items-container3 {
+    height: 640px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff7f3;
+  }
+  .itemshead3 {
+    height: 100%;
+    width: 81vw;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 30px 12.5vw 60px;
+  }
+  .itemsTexts3 {
+    height: 102px;
+    padding: 30px 0px 14px;
+  }
+  .shopAlllink3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title1-3 {
+    padding: 0px 0px 10px;
+    display: block;
+    margin: 0;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding-left: 15px;
+  }
+  .title2-3 {
+    margin: 0;
+    padding: 0px 0px 5px;
+    display: block;
+    height: 45px;
+    font-weight: 900;
+    padding-left: 15px;
+  }
+  .shopAll3 {
+    height: 20px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .linkfontstyle3 {
+    color: #ee4a1b;
+    cursor: pointer;
+    border: 0px;
+    border-bottom: 1px solid #ee4a1b;
+  }
+  .linkfontstyle3:hover {
+    border-bottom: 2px solid #ee4a1b;
+  }
+  
+  /* slide bar3 part begin here */
+  
+  .itemsSlidebar3 {
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* end here */
+  
+  -------------------------
+  
+  /* this part 2 for slide design begin here */
+  .slide-main2 {
+    position: relative;
+  }
+  .mainslide-con-div1-2 {
+    display: flex;
+    justify-content: center;
+  }
+  .mainslide-con-div2-2 {
+    display: none;
+    justify-content: center;
+  }
+  .mainslide-con-div3-2 {
+    display: none;
+    justify-content: center;
+  }
+  
+  .prodCountImg2 {
+    width: 98%;
+    height: 359px;
+  }
+  
+  .h4titletxt2 {
+    font-size: 12px;
+    padding: 0px 13px;
+    margin: 7px 0px 0px;
+    font-weight: 700;
+  }
+  .ptypetxt2 {
+    font-size: 12px;
+    margin: 1px;
+    padding: 0px 13px;
+    color: rgb(39, 39, 39);
+  }
+  .h4pricetxt2 {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0px 13px;
+    margin: 1px;
+  }
+  .preBtn2 {
+    border: 4px solid transparent;
+    position: absolute;
+    top: calc(45% - 22px);
+    left: 0;
+    transition: background-image 0.2s ease-in 0s;
+    padding: 8px 8px;
+    border-radius: 50%;
+    width: 20px;
+    height: 10px;
+    background-color: #ee491ba2;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-bottom: 32px;
+    cursor: pointer;
+  }
+  .nextBtn2 {
+    position: absolute;
+    border: 4px solid transparent;
+    position: absolute;
+    top: calc(45% - 22px);
+    right: 0px;
+    transition: background-image 0.2s ease-in 0s;
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px;
+    border-radius: 50%;
+    background-color: #ee4a1b;
+    box-sizing: border-box;
+    padding-bottom: 32px;
+    cursor: pointer;
+  }
+  .nextBtn:hover,
+  .preBtn:hover {
+    background-color: #ee491ba2;
+  }
+  
+  /* end here */
+  
+  /* this part 2 for slide design begin here */
+  .slide-main3 {
+    position: relative;
+  }
+  .mainslide-con-div1-3 {
+    display: flex;
+    justify-content: center;
+  }
+  .mainslide-con-div2-3 {
+    display: none;
+    justify-content: center;
+  }
+  .mainslide-con-div3-3 {
+    display: none;
+    justify-content: center;
+  }
+  
+  .prodCountImg3 {
+    width: 98%;
+    height: 359px;
+  }
+  
+  .h4titletxt3 {
+    font-size: 12px;
+    padding: 0px 13px;
+    margin: 7px 0px 0px;
+    font-weight: 700;
+  }
+  .ptypetxt3 {
+    font-size: 12px;
+    margin: 1px;
+    padding: 0px 13px;
+    color: rgb(39, 39, 39);
+  }
+  .h4pricetxt3 {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0px 13px;
+    margin: 1px;
+  }
+  .preBtn3 {
+    border: 4px solid transparent;
+    position: absolute;
+    top: calc(45% - 22px);
+    left: 0;
+    transition: background-image 0.2s ease-in 0s;
+    padding: 8px 8px;
+    border-radius: 50%;
+    width: 20px;
+    height: 10px;
+    background-color: #ee491ba2;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-bottom: 32px;
+    cursor: pointer;
+  }
+  .nextBtn3 {
+    position: absolute;
+    border: 4px solid transparent;
+    position: absolute;
+    top: calc(45% - 22px);
+    right: 0px;
+    transition: background-image 0.2s ease-in 0s;
+    width: 40px;
+    height: 40px;
+    padding: 8px 8px;
+    border-radius: 50%;
+    background-color: #ee4a1b;
+    box-sizing: border-box;
+    padding-bottom: 32px;
+    cursor: pointer;
+  }
+  .nextBtn3:hover,
+  .preBtn3:hover {
+    background-color: #ee491ba2;
+  }
+  
+  /* end here */
+  
