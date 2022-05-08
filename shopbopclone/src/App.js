@@ -9,9 +9,13 @@ import { Product } from './components/shilajit/Product';
 import { Signup } from './components/shilajit/Signup';
 
 
+
 function App() {
   return (
     <div className="App">
+
+   
+
      {/* <Example/> */}
      {/* <Signup/> */}
      {/* <Login/> */}
@@ -19,6 +23,7 @@ function App() {
     {/* <MultipleItemsTwo/> */}
     <Product/>
     {/* <Fav/> */}
+
     </div>
   );
 }
