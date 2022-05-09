@@ -1,0 +1,138 @@
+.container{
+    width: 80%;
+    margin: 50px auto;
+    /* border: 1px solid red; */
+    display:flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.leftdiv{
+    width:60%;
+    /* border:1px solid blue; */
+}
+
+.rightdiv{
+    width:32%;
+    /* border:1px solid green; */
+    /* background-color: aquamarine; */
+}
+
+.rightdiv > div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.inputdiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* border-bottom: 1px solid black; */
+    height:50px
+}
+
+.inputdiv >input{
+    height: 30px;
+    width: 65%;
+}
+
+.inputdiv > button{
+    width: 30%;
+    height: 38px;
+}
+
+.subtotal{
+    height:45px;
+    align-items: center;
+}
+
+.subtotal > h3{
+    font-size: 13px;
+}
+
+.subtotal  span{
+    margin-left:4px;
+    font-size: 10px !important;
+}
+
+.checkoutbtn{
+    height: 70px;
+}
+
+.checkoutbtn button{
+    width:100%;
+    color:white;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: lightcoral;
+    border:none;
+    margin-bottom: 20px;
+}
+
+.feesdiv{
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:5px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+.feesdiv img{
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+
+.feesdiv > div{
+    height:40px;
+   
+}
+
+.feesdiv > div >h4{
+    font-size: 14px;
+    margin-top: -2px;
+    margin-bottom: -10px;
+    
+}
+.feesdiv > div >p{
+    font-size: 12px;;
+
+}
+
+.visa{
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.visa img{
+    margin: auto;
+}
+
+.customercare{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+.customercare h3{
+    margin: auto;
+}
+
+
+/* itemdiv */
+
+.itemdiv{
+    margin-top: 15px;
+   /* border: 1px solid black; */
+   display: flex;
+   gap: 15px;
+   padding-bottom: 10px;
+}
+.logo{
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 15px;
+}
