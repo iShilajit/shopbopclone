@@ -141,7 +141,7 @@ export const BagData=[
     },
     {
       "id": 21,
-      "title": "POOLSIDE BAGS",
+      "title": "POOLidE BAGS",
       "name": "The Stella Tote",
       "price":"$245.00",
       "imgURL":"https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/pbags/pbags300981a530/pbags300981a530_1651511303102_2-0._SH20_QL90_UY365_.jpg"

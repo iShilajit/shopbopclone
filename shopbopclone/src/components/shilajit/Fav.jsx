@@ -1,7 +1,14 @@
 import React from 'react'
-import { itemsData } from './data/indexdata';
+import { itemsData2 } from './data/indexdata';
+import { useNavigate } from 'react-router-dom';
 import './css/Product.css';
 export const Fav = () => {
+
+    const navigate=useNavigate()
+    const handleClick=(e)=>{
+localStorage.setItem("productdes",JSON.stringify(e));
+navigate("/productDescription")
+    }
   return (
     <>
       <div class="prodSiteContainer">
@@ -34,18 +41,19 @@ export const Fav = () => {
                             <button id="view45items" >45</button>
                         </div>
 
-                        <div class="productItemsMain-div">
-                            {itemsData.map((i) => {
+                        <div className="productItemsMain-div whatnew">
+                            {itemsData2.map((i) => {
                                 return (
-                                    <div key={i.id} >
-                                        <div className="whatnew" >
-                                        <div className="w-[224px] h-[224px]">
+                                    <div key={i.id}  >
+                                       
+                                        <div  onClick={()=>handleClick(i)}>
                                             <img src={i.itemImg} alt="" />
+                                            <p>{i.title}</p>
+                                            <p>{i.type}</p>
+                                            <p>{i.price}</p>
                                         </div>
-                                        <div> <p>{i.title}</p></div>
-                                        <div> <p>{i.type}</p></div>
-                                        <div> <p>{i.price}</p></div>
-                                            </div>
+                                        
+                                       
                                        
                                     </div>
                                 )

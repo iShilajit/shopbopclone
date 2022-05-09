@@ -1,5 +1,6 @@
 
 import './App.css';
+// import { Checkout } from './components/shilajit/Checkout';
 // import MultipleItemsTwo from './components/shilajit/Carousal/Slider';
 // import { Fav } from './components/shilajit/Fav';
 // import  Home  from './components/shilajit/Home';
@@ -35,6 +36,7 @@ function App() {
 {/* <Bag/> */}
 {/* <Mens/> */}
 {/* <Description/> */}
+{/* <Checkout/> */}
 
 
     </div>

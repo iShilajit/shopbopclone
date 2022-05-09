@@ -128,7 +128,7 @@ body {
   }
 
   .products-ul {
-    overflow: hidden;
+    /* overflow: hidden; */
     display: grid;
     grid-template-columns: repeat(4, 25%);
     list-style: none;
@@ -138,7 +138,7 @@ body {
     border-bottom: 0;
     padding: 0px 0.5em 0px 0.5em;
     white-space: nowrap;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-align: center;
     vertical-align: top;
     margin: 0 0 1.5em 0;

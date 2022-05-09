@@ -19,7 +19,7 @@ export default class MultipleItemsTwo extends Component {
         <Slider {...settings}>
           {itemsData.map((endslider) => {
             return (
-              <div key={endslider.sid}>
+              <div key={endslider.id}>
                 <div className="mx-[60px] h-[300px]">
                     <div className="w-[224px] h-[224px]">
                         <img src={endslider.itemImg} alt="" />

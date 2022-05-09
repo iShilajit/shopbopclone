@@ -6,6 +6,7 @@ import { itemsData } from "../shilajit/data/indexdata";
 import MultipleItemsTwo from './Carousal/Slider';
 import Example from './ImageShow';
 import Top from './Top';
+import { Link } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -104,6 +105,7 @@ const Home = () => {
             <p className="visualheading2">Black-Led Brands</p>
           </div>
           <ul className="visualImages">
+          <Link to={"/productPage"}>
             <li>
               <img className="visImgText"
                 src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/gamer/gamer30447174cb/gamer30447174cb_1646242381307_2-0._QL90_UX346_.jpg"
@@ -113,6 +115,9 @@ const Home = () => {
                 <p className="img1-text designtxt">Good American</p>
               </div>
             </li>
+            </Link>
+
+            <Link to={"/fav"}>
             <li>
               <img className="visImgText"
                 src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/elexi/elexi3000211576/elexi3000211576_1646951004978_2-0._QL90_UX346_.jpg"
@@ -122,6 +127,7 @@ const Home = () => {
                 <p className="img2-text designtxt">Elexiary</p>
               </div>
             </li>
+            </Link>
             <li>
               <img className="visImgText"
                 src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/mchat/mchat3004913034/mchat3004913034_1643319932963_2-0._QL90_UX346_.jpg"

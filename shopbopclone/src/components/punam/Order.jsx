@@ -1,45 +1,64 @@
+import React,  { useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "./Order.module.css";
 
 function Order() {
-  const dummydata = [
-    {
-      id: 1,
-      imgurl:
-        "https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/nlota/nlota2093212397/nlota2093212397_q1_2-0.__UX540__._QL90_.jpg",
-      brand: "Nili Lotan",
-      title: "Yorke Shirt",
-      price: "$250",
-      color: "White",
-      size: "Size",
-    },
-  ];
+  let data = JSON.parse(localStorage.getItem("cartProducts"))
+  console.log(data);
+
+    const [cart, setCart] = useState(data);
+  const totalPrice = () => {
+    const totalAmt = cart.reduce((acc, elem) => {
+      return acc + Number(elem.price);
+    }, 0);
+    let finalAmount = totalAmt;
+    localStorage.setItem("totalAmountKey", finalAmount);
+    return totalAmt;
+  };
+  const [totalp, setTotalprice] = useState(totalPrice);
+  const removeItem = (id) => {
+    for (let i = 0; i < cart.length; i += 1) {
+      if (cart[i].id === id) {
+        cart.splice(i, 1);
+        localStorage.setItem("cartProducts", JSON.stringify(cart));
+        setCart([...cart]);
+        // setCartLength(cart.length);
+        // console.log("cart:", cart);
+        break;
+      }
+    }
+    // console.log("removed");
+    const tA = totalPrice();
+    setTotalprice(tA);
+  };
+ 
   return (
     <>
       <div className={styles.container}>
         <div className={styles.leftdiv}>
           <div className={styles.logo}>
-          <img src="./img/bag.png"  height="80px" width="80px" alt="" />
+          <img src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/rebrand_shopbop_logo_2x_1-3.png"  height="80px" width="80px" alt="" />
           <h1>Shoping bag</h1>
           </div>
-          <p>1 items</p>
+          <p>{data.length} items</p>
           <p>Items are saved to your bag, but availability is not guaranteed.</p>
          
-          {dummydata.map((item)=>{
+          {data.map((item)=>{
              return(
              <div className={styles.itemdiv}>
-                <img src={item.imgurl} height="300px" alt="img"/>
+                <img src={item.itemImg} height="300px" alt="img"/>
                 <div className={styles.brand}> 
-                    <h4>{item.brand}</h4>
-                    <p>{item.title}</p>
+                    <h4>{item.title}</h4>
+                    <p>{item.type}</p>
                     <h4>{item.price}</h4>
                     <p>{item.color}</p>
                     <p>{item.size}</p>
+                <button onClick={()=>removeItem(item.id)}>Delete</button>
                 </div>
                 
               </div>
               )
           })}
-          <button>Edit</button>
         </div>
         <div className={styles.rightdiv}>
           <div>
@@ -47,7 +66,7 @@ function Order() {
           </div>
           <div>
             <p>Products</p>
-            <p>$365</p>
+            <p>${totalp}</p>
           </div>
           <div>
             <p>Shipping and Handling</p>
@@ -64,10 +83,10 @@ function Order() {
             <h3>
               Subtotal<span>(before taxes)</span>
             </h3>
-            <h3>$365</h3>
+            <h3>${totalp}</h3>
           </div>
           <div className={styles.checkoutbtn}>
-            <button>Checkout</button>
+           <button><Link to={"/checkout"}>Checkout</Link></button>
           </div>
           <div className={styles.feesdiv}>
             <img

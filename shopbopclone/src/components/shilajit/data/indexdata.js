@@ -65,7 +65,14 @@ export const itemsData = [
       title: "Reg & Bone",
       type: "Liana Cardigan",
       price: "359.00",
-      sid:"sh1"
+      des:`Fabric: Mid-weight,
+       non-stretch Jacquard ,
+       Sweetheart neck and short puff sleeves,
+        Cropped profile,
+        Hidden zip at side
+        
+        `,
+      id:"sh1"
     },
     {
       itemImg:
@@ -73,7 +80,14 @@ export const itemsData = [
       title: "MOTHER",
       type: "High Waisterd Rider Ank...",
       price: "198.00",
-      sid:"sh2"
+      des:`Fabric: Mid-weight,
+      non-stretch Jacquard ,
+      Sweetheart neck and short puff sleeves,
+       Cropped profile,
+       Hidden zip at side
+       
+       `,
+      id:"sh2"
     },
     {
         itemImg:
@@ -81,7 +95,14 @@ export const itemsData = [
         title: "Loeffler Randall",
         type: "Willa Bag",
         price: "295.00",
-        sid:"sh3"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh3"
     },
     {
         itemImg:
@@ -89,7 +110,14 @@ export const itemsData = [
         title: "Redecca Taylor",
         type: "Popover Dress",
         price: "265.00",
-        sid:"sh4"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh4"
     },
     {
         itemImg:
@@ -97,7 +125,14 @@ export const itemsData = [
         title: "Lsabel Marant",
         type: "Elham Sandals",
         price: "790.00",
-        sid:"sh5"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh5"
     },
     {
         itemImg:
@@ -105,7 +140,14 @@ export const itemsData = [
         title: "Rebecca Taylor",
         type: "Poplin Jumpsuit",
         price: "395.00",
-        sid:"sh6"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh6"
     },
     {
         itemImg:
@@ -113,7 +155,14 @@ export const itemsData = [
         title: "Good American",
         type: "Modern Tank Thong Bodysuit.",
         price: "65.00",
-        sid:"sh7"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh7"
     },
     {
         itemImg:
@@ -121,7 +170,14 @@ export const itemsData = [
         title: "Vince",
         type: "sculptural Panama Shorts",
         price: "275.00",
-        sid:"sh8"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh8"
     },
     {
         itemImg:
@@ -129,7 +185,14 @@ export const itemsData = [
         title: "Rebecca Tylor",
         type: "LongSleeve Dress",
         price: "295.00",
-        sid:"sh9"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh9"
     },
     {
         itemImg:
@@ -137,7 +200,14 @@ export const itemsData = [
         title: "Maison Iren",
         type: "Necklace Cortona",
         price: "170.00",
-        sid:"sh10"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh10"
     },
     {
         itemImg:
@@ -145,7 +215,14 @@ export const itemsData = [
         title: "Jacquemus",
         type: "Le Jacquemus T-Shirt",
         price: "140.00",
-        sid:"sh11"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh11"
     },
     {
         itemImg:
@@ -153,7 +230,14 @@ export const itemsData = [
         title: "Rag & Bone",
         type: "Roxie Leggings",
         price: "225.00",
-        sid:"sh12"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh12"
     },
     {
         itemImg:
@@ -161,7 +245,14 @@ export const itemsData = [
         title: "Christopher Esber",
         type: "Bandeau Crop Shirt",
         price: "420.00",
-        sid:"sh13"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh13"
     },
     {
         itemImg:
@@ -169,7 +260,14 @@ export const itemsData = [
         title: "Proenza Schouler",
         type: "Zebra Cotton Jacquard Skit",
         price: "890.00",
-        sid:"sh14"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh14"
     },
     {
         itemImg:
@@ -177,7 +275,14 @@ export const itemsData = [
         title: "Monse",
         type: "Asymetrical Floral Slit Dress",
         price: "990.00",
-        sid:"sh15"
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
+        id:"sh15"
     },
 ];
 
@@ -188,6 +293,13 @@ export const itemsData2 = [
         title: "Derek Lam 10 Crosby",
         type: "Charlotte Tie Waist Shirt Dress",
         price: "395.00",
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
         id:"sj1"
         
     },
@@ -197,6 +309,13 @@ export const itemsData2 = [
       title: "Themoire",
       type: "Bios Bag",
       price: "509.00",
+      des:`Fabric: Mid-weight,
+      non-stretch Jacquard ,
+      Sweetheart neck and short puff sleeves,
+       Cropped profile,
+       Hidden zip at side
+       
+       `,
       id:"sj2"
     },
     {
@@ -205,6 +324,13 @@ export const itemsData2 = [
         title: "Acne Studios",
         type: "Knit Face Vest",
         price: "320.00",
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
         id:"sj3"
     },
     {
@@ -213,6 +339,13 @@ export const itemsData2 = [
         title: "AGOLDE",
         type: "Fen High Rise Relaxed Tapered Jeans",
         price: "188.00",
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
         id:"sj4"
    
     },
@@ -222,6 +355,13 @@ export const itemsData2 = [
         title: "AGOLDE",
         type: "Fen High Rise Relaxed Tapered Jeans",
         price: "645.00",
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
         id:"sj5"
     },
     {
@@ -230,6 +370,13 @@ export const itemsData2 = [
       title: "GANNI",
       type: "Printed Light Crepe Dress",
       price: "255.00",
+      des:`Fabric: Mid-weight,
+      non-stretch Jacquard ,
+      Sweetheart neck and short puff sleeves,
+       Cropped profile,
+       Hidden zip at side
+       
+       `,
       id:"sj6"
     },
     {
@@ -238,6 +385,13 @@ export const itemsData2 = [
         title: "Jacquemus",
         type: "Le Jacquemus T-Shirt",
         price: "140.00",
+        des:`Fabric: Mid-weight,
+        non-stretch Jacquard ,
+        Sweetheart neck and short puff sleeves,
+         Cropped profile,
+         Hidden zip at side
+         
+         `,
         id:"sj7"
     },
     {
@@ -246,6 +400,13 @@ export const itemsData2 = [
       title: "Pistola Denim",
       type: "Nova Shorts",
       price: "108.00",
+      des:`Fabric: Mid-weight,
+      non-stretch Jacquard ,
+      Sweetheart neck and short puff sleeves,
+       Cropped profile,
+       Hidden zip at side
+       
+       `,
       id:"sj8"
      
     },
@@ -255,6 +416,13 @@ export const itemsData2 = [
       title: "IRO",
       type: "Shavani Jacket",
       price: "380.00",
+      des:`Fabric: Mid-weight,
+      non-stretch Jacquard ,
+      Sweetheart neck and short puff sleeves,
+       Cropped profile,
+       Hidden zip at side
+       
+       `,
       id:"sj9"
      
     },
@@ -264,6 +432,13 @@ export const itemsData2 = [
       title: "SLVRLAKE",
       type: "London High Rise Straight Jeans",
       price: "269.00",
+      des:`Fabric: Mid-weight,
+      non-stretch Jacquard ,
+      Sweetheart neck and short puff sleeves,
+       Cropped profile,
+       Hidden zip at side
+       
+       `,
       id:"sj10"
      
     },
@@ -273,6 +448,13 @@ export const itemsData2 = [
       title: "Aje",
       type: "Promenade Woven Bucket Chain Bag",
       price: "245.00",
+      des:`Fabric: Mid-weight,
+      non-stretch Jacquard ,
+      Sweetheart neck and short puff sleeves,
+       Cropped profile,
+       Hidden zip at side
+       
+       `,
       id:"sj11"
      
     },
@@ -282,6 +464,13 @@ export const itemsData2 = [
       title: "MARA HOFFMAN",
       type: "Tiffany Organic Dress",
       price: "325.00",
+      des:`Fabric: Mid-weight,
+      non-stretch Jacquard ,
+      Sweetheart neck and short puff sleeves,
+       Cropped profile,
+       Hidden zip at side
+       
+       `,
       id:"sj12"
      
     },
@@ -291,6 +480,13 @@ export const itemsData2 = [
       title: "Derek Lam 10 Crosby",
       type: "Colette Dress",
       price: "395.00",
+      des:`Fabric: Mid-weight,
+      non-stretch Jacquard ,
+      Sweetheart neck and short puff sleeves,
+       Cropped profile,
+       Hidden zip at side
+       
+       `,
       id:"sj13"
     },
     {
@@ -299,6 +495,13 @@ export const itemsData2 = [
       title: "Isabel Marant",
       type: "Lennyo Sandals",
       price: "580.00",
+      des:`Fabric: Mid-weight,
+      non-stretch Jacquard ,
+      Sweetheart neck and short puff sleeves,
+       Cropped profile,
+       Hidden zip at side
+       
+       `,
       id:"sj14"
     },
     {
@@ -307,6 +510,13 @@ export const itemsData2 = [
       title: "SLVRLAKE",
       type: "London Jeans",
       price: "329.00",
+      des:`Fabric: Mid-weight,
+      non-stretch Jacquard ,
+      Sweetheart neck and short puff sleeves,
+       Cropped profile,
+       Hidden zip at side
+       
+       `,
       id:"sj15" 
     },
   ];

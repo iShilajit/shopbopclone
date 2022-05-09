@@ -1,12 +1,17 @@
 import React from 'react'
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 export const Description = () => {
+  const warning = () => toast.warning("Item already present in Bag");
+  const success = () => toast.success("Item Added to Bag");
   const addToCart = (e) => {
     let cartItems = JSON.parse(localStorage.getItem("cartProducts")) || [];
     let flag = false;
     for (let i = 0; i < cartItems.length; i++) {
       if (cartItems[i].id == e.id) {
-         alert("Item already present in Bag");
+        //  alert("Item already present in Bag");
+        warning()
         
         flag = true;
       }
@@ -15,7 +20,8 @@ export const Description = () => {
       e.quantity = 1;
       cartItems.push(e);
       localStorage.setItem("cartProducts", JSON.stringify(cartItems));
-      alert("Item Added to Bag")
+      // alert("Item Added to Bag")
+      success()
      
     }
   };
@@ -106,6 +112,7 @@ export const Description = () => {
     </div>
   </div>
 </section>
+<ToastContainer />
    </>
   )
 }
