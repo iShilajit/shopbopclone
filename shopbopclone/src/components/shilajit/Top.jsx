@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 /* This Top requires Tailwind CSS v2.0+ */
 export default function Top() {
     return (
@@ -81,12 +83,13 @@ export default function Top() {
                   </div>
                 </div>
   
-                <a
-                  href="#"
+              <Link to={"/productPage"}>
+              <a
                   className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700"
                 >
                   Shopbop Collection
                 </a>
+              </Link>
               </div>
             </div>
           </div>

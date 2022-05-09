@@ -1,5 +1,5 @@
 // import React,{useState,useEffect}  from 'react';
-import {Product,Main,Inner} from './Men.styled.js';
+import {Product,Men,Inner} from './Men.styled';
 import {mendata} from './MenData.js';
 
 export const Mens = () => {
@@ -12,9 +12,11 @@ export const Mens = () => {
 
     <img style={{width: '100%',}}
     src="https://www.linkpicture.com/q/image_2022-05-04_16-23-46.png" alt=""/>
-
-    <h3>FIND SOME INSPIRATION</h3>
-    <h2>Your Wardrobe Starts Here</h2>
+<div style={{textAlign:"center",marginTop:"50px",marginBottom:"50px"}}>
+<h3 style={{fontSize:"20px"}}>FIND SOME INSPIRATION</h3>
+    <h2 style={{fontSize:"30px",fontWeight:"bold"}}>Your Wardrobe Starts Here</h2>
+</div>
+ 
 
     <div style={{display:"flex",margin:"auto",height:400,width:"80%",gap:8}}>
       <img src="https://m.media-amazon.com/images/G/01//Shopbop/media/desktop/landingpages/mens/2022/2022_04/sbm_20220401_hp_card_visnav_casuals._QL90_UX452_.jpg" alt=""/>
@@ -28,7 +30,7 @@ export const Mens = () => {
       <h2 style={{textAlign:"left",margin:50}}>What's New</h2>
       <p style={{textAlign:"right",marginRight:60,color:"red",textDecoration: "underline"}}>Shop All</p>
     </div>
-<Main>
+<Men>
     <Product>
       {mendata.map((item)=>(
         <Inner key={item.id}>
@@ -39,7 +41,7 @@ export const Mens = () => {
         </Inner>
 ))}
     </Product>
-</Main>
+</Men>
 
 
     <img style={{width: '100%',marginTop:10}}

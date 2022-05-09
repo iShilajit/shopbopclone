@@ -17,6 +17,7 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { MenuIcon, SearchIcon, ShoppingBagIcon, XIcon } from '@heroicons/react/outline'
+import { Link } from 'react-router-dom'
 
 const navigation = {
   categories: [
@@ -698,9 +699,11 @@ export default function Example() {
                               <span className="absolute z-10 inset-0" aria-hidden="true" />
                               {item.name}
                             </a>
-                            <p aria-hidden="true" className="mt-1">
+                           <Link to={"/productPage"}>
+                           <p aria-hidden="true" className="mt-1">
                               Shop now
                             </p>
+                           </Link>
                           </div>
                         ))}
                       </div>

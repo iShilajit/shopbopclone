@@ -6,6 +6,7 @@ import { itemsData } from "../shilajit/data/indexdata";
 import MultipleItemsTwo from './Carousal/Slider';
 import Example from './ImageShow';
 import Top from './Top';
+// import { Link } from 'react-router-dom';
 
 const Home = () => {
 
