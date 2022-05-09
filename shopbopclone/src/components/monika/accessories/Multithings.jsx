@@ -22,7 +22,7 @@ const Multithings= () => {
   return (
     <>
     <div>
-      <img style={{height:"50px"}}src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/rebrand_shopbop_logo_2x_1-3.png" alt="img"/>
+      <img style={{height:"50px",marginLeft:"45%"}}src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/rebrand_shopbop_logo_2x_1-3.png" alt="img"/>
     </div>
     <h1 style={{fontStyle:"Helvetica-Neue,sans-serif",fontSize:"20px"}}>POPULAR PICKS FOR YOU</h1>
     

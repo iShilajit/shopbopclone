@@ -5,7 +5,7 @@ import {Divi,Image,Last,Same} from "./footer.styled.js";
 const Footer = () => {
   return (
       <>
-        <img style={{}}src='https://m.media-amazon.com/images/G/01//Shopbop/media/desktop/homepages/2022/2022_03/sb_20220309_desktop_M1_evergreen._FMwebp_UX992_.jpg' alt="img"/>
+        <img style={{marginLeft:"20%"}}src='https://m.media-amazon.com/images/G/01//Shopbop/media/desktop/homepages/2022/2022_03/sb_20220309_desktop_M1_evergreen._FMwebp_UX992_.jpg' alt="img"/>
 
         <Divi>
             <Image src="https://m.media-amazon.com/images/G/01//Shopbop/media/desktop/homepages/2022/2022_04/sb_20220405_hp_card_visnav_evergreen_01row._QL90_UX373_.jpg"alt='img1'/>
@@ -14,19 +14,19 @@ const Footer = () => {
         </Divi>
         <Last>
             <Same>
-                <h3>SERVICES</h3>
+                <h3 style={{fontWeight:"bold"}}>SERVICES</h3>
                 <p>Customer Service</p>
                 <p>Gift Certificates</p>
                 <p>Give Us Your Feedback</p>
             </Same>
             <Same>
-                <h3>INFORMATION</h3>
+                <h3 style={{fontWeight:"bold"}}>INFORMATION</h3>
                 <p>About Us</p>
                 <p>Careers</p>
                 <p>Affiliate Program</p>
             </Same>
             <Same>
-                <h3>PERSONALIZE</h3>
+                <h3 style={{fontWeight:"bold"}}>PERSONALIZE</h3>
                 <p>Account</p>
                 <p>My Loyalty</p>
                 <p>My love</p>
@@ -35,7 +35,7 @@ const Footer = () => {
                 <p>My Reviews</p>
             </Same>
             <Same>
-                <h3>CONNECT</h3>
+                <h3 style={{fontWeight:"bold"}}>CONNECT</h3>
                 <p>Mobile</p>
                 <p>Instagram</p>
                 <p>Facebook</p>
@@ -44,7 +44,7 @@ const Footer = () => {
                 <p>Sign up for Shopbop Emails</p>
             </Same>
             <Same>
-                <h3>LOCATION</h3>
+                <h3 style={{fontWeight:"bold"}}>LOCATION</h3>
                <p>India</p>
                <p>Free express international</p>
                <p>Delivery</p>
@@ -52,7 +52,7 @@ const Footer = () => {
             </Same>
         </Last>
         <p style={{fontWeight:"bold",textAlign:"center"}}>@ 1999-2022 BOP LLC.All Rights Reserved.Privacy Notice Condition Of Use.</p>
-        <img style={{height:"30px"}}src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/rebrand_shopbop_logo_2x_1-3.png"alt="shopbop"/>
+        <img style={{height:"30px",position:"relative",left:"48%"}}src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/rebrand_shopbop_logo_2x_1-3.png"alt="shopbop"/>
       </>
     
   )

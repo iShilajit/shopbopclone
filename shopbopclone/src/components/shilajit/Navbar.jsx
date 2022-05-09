@@ -454,7 +454,7 @@ const navigation = {
         },
         {
           name: 'Basic Tees',
-          href: '/',
+          href: '/Acc',
           imageSrc: 'https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg',
           imageAlt: 'Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.',
         },
@@ -787,7 +787,8 @@ export default function Example() {
 
         </div>
         <Link to={"/"}>
-              <h1 style={{fontSize:"50px",marginTop:"50px"}} className="  font-large  bg-white-100 h-10 flex items-center justify-center text-sm font-medium text-black px-4 sm:px-12 lg:px-12">Shopbop</h1>
+              {/* <h1 style={{fontSize:"50px",marginTop:"50px"}} className="  font-large  bg-white-100 h-10 flex items-center justify-center text-sm font-medium text-black px-4 sm:px-12 lg:px-12">Shopbop</h1> */}
+              <img style={{height:"50px",marginLeft:"45%"}}src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/rebrand_shopbop_logo_2x_1-3.png" alt="img"/>
 </Link>
 
         <nav aria-label="Top" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -851,9 +852,11 @@ export default function Example() {
                                             <span className="absolute z-10 inset-0" aria-hidden="true" />
                                             {item.name}
                                           </Link>
+                                          <Link to={item.href}>
                                           <p aria-hidden="true" className="mt-1">
                                             Shop now
                                           </p>
+                                          </Link>
                                         </div>
                                       ))}
                                     </div>

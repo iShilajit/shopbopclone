@@ -13,6 +13,7 @@ import Bag from "../../monika/bagcomponents/Bag";
 import { Signup } from "../Signup";
 import { Login } from "../Login";
 import PageNotFound from "../PageNotFound";
+import Footer from "../../monika/ForFooter/Footer";
 
 
  const MainRoutes = () => {
@@ -33,10 +34,11 @@ import PageNotFound from "../PageNotFound";
             <Route path="/Login" element={<Login/>}/>
 
 
-            
+
             {/* page not found */}
             <Route path="*" element={<PageNotFound/>}/>
             </Routes>
+            <Footer/>
         </>
     )
 }

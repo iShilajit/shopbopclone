@@ -4,6 +4,8 @@ export const Divi=styled.div`
 display:flex;
 margin:auto;
 justify-content:center;
+text-align: center;
+align-items: center;
 
 `;
 

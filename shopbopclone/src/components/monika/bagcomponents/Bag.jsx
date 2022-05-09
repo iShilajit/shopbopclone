@@ -1,7 +1,7 @@
 // import React, { useState ,useEffect} from 'react'
 import {Good,Divi,Main}from "./Bag.styled.js";
 import { BagData } from './BagData.js';
-
+import './Bag.css'
 const Bag = () => {
   //console.log(BagData);
   // const[data,setData]=useState([]);
@@ -23,7 +23,7 @@ const Bag = () => {
   return (
     <>
     <div>
-      <img style={{height:"50px"}}src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/rebrand_shopbop_logo_2x_1-3.png"/>
+    <img style={{height:"50px",marginLeft:"45%"}}src="https://m.media-amazon.com/images/G/01/Shopbop/p/pcs/shopbop/media/3/images/logos/rebrand_shopbop_logo_2x_1-3.png" alt="img"/>
     </div>
     <h1 style={{fontStyle:"Helvetica-Neue,sans-serif",fontSize:"20px"}}>POPULAR PICKS FOR YOU</h1>
     

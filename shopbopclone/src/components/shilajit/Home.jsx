@@ -97,7 +97,9 @@ const Home = () => {
         </div>
         <Example/>
         <div className="startimg">
+          <Link to={"/bag"}>
           <img src={Midd} alt="" />
+          </Link>
         </div>
         <div className="visualNav">
           <div className="visualNavText">
@@ -128,6 +130,7 @@ const Home = () => {
               </div>
             </li>
             </Link>
+            <Link to={"/Acc"}>
             <li>
               <img className="visImgText"
                 src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/mchat/mchat3004913034/mchat3004913034_1643319932963_2-0._QL90_UX346_.jpg"
@@ -137,6 +140,7 @@ const Home = () => {
                 <p className="img3-text designtxt">Maison Chateau Rouge</p>
               </div>
             </li>
+            </Link>
             <li>
               <img className="visImgText"
                 src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/mchat/mchat3004613034/mchat3004613034_1643319922485_2-0._QL90_UX346_.jpg"
