@@ -42,10 +42,10 @@ navigate("/productDescription")
                             <button id="view45items" >45</button>
                         </div>
 
-                        <div className="productItemsMain-div whatnew">
+                        <div className=" whatnew">
                             {itemsData2.map((i) => {
                                 return (
-                                    <div key={i.id}  >
+                                    <div key={i.sid}  >
                                        
                                         <div  onClick={()=>handleClick(i)}>
                                             <img src={i.itemImg} alt="" />

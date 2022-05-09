@@ -12,6 +12,7 @@ import Multithings from "../../monika/accessories/Multithings";
 import Bag from "../../monika/bagcomponents/Bag";
 import { Signup } from "../Signup";
 import { Login } from "../Login";
+import PageNotFound from "../PageNotFound";
 
 
  const MainRoutes = () => {
@@ -30,6 +31,11 @@ import { Login } from "../Login";
             <Route path="/bag" element={<Bag/>}/>
             <Route path="/Signup" element={<Signup/>}/>
             <Route path="/Login" element={<Login/>}/>
+
+
+            
+            {/* page not found */}
+            <Route path="*" element={<PageNotFound/>}/>
             </Routes>
         </>
     )
