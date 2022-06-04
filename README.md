@@ -20,6 +20,9 @@ Unit4 Construct week
 
 #Women Section 
 ![girls](https://user-images.githubusercontent.com/99752799/171994452-2ccd67fc-73a3-47fb-8dc6-eac960f58304.png)
+# Cart
+
+![cart](https://user-images.githubusercontent.com/99752799/171994544-94578a33-81e2-4a99-9a3e-a8fd118e09e1.png)
 
 # Github https://github.com/iShilajit/shopbopclone/issues/8#issue-1258509423
 # Our Blog: https://medium.com/@sridharchandhiran/shopbop-com-clone-2298d3b487aa
