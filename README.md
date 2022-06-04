@@ -12,9 +12,11 @@ Unit4 Construct week
 #Footer
 
 ![shopbopfooterpart](https://user-images.githubusercontent.com/99752799/171994242-eba7bfc5-b37d-48d8-b11a-4f4a669e348d.png)
+#Bag Section
+![Bag](https://user-images.githubusercontent.com/99752799/171994296-6cd1893e-0f24-45a2-900c-1b7a79ecbd13.png)
 
-(https://github.com/iShilajit/shopbopclone/issues/8#issue-1258509423))
-Our Blog: https://medium.com/@sridharchandhiran/shopbop-com-clone-2298d3b487aa
-Netlify Link: https://shopbop.netlify.app/
+# Github https://github.com/iShilajit/shopbopclone/issues/8#issue-1258509423
+# Our Blog: https://medium.com/@sridharchandhiran/shopbop-com-clone-2298d3b487aa
+# Netlify Link: https://shopbop.netlify.app/
 
 
